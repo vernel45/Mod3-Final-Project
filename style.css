@@ -17,8 +17,18 @@ body {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
+.header__description {
+    width: 40%;
+}
+
+.header__description p {
+    margin-top: 24px;
+}
 .row__narrow {
     width: 100%;
     max-width: 1024px;
