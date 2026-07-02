@@ -17,6 +17,7 @@ body {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 24px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -68,20 +69,19 @@ NAVBAR ↓
 
 
 nav {
-    display: flex;
     padding-top: 32px;
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,6 +129,24 @@ nav {
 
 .nav__link--anchor:hover {
     color: #6415ff;
+}
+
+.nav__button {
+    padding: 12px 32px;
+    background: #6415ff;
+    color: #f7fafc;
+    border-radius: 99px;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.nav__link--primary {
+    background: #6415ff;
+    color: #f7fafc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 300ms ease;
 }
 
 .btn__menu {
