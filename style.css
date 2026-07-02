@@ -178,6 +178,11 @@ FEATURES ↓
 
 */
 
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
 #features {
   padding: 80px 0;
 }
@@ -257,6 +262,11 @@ FEATURES ↓
   line-height: 1.8;
 }
 
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px 32px;
+}
 
 
 /* 
