@@ -627,6 +627,19 @@ VALUES ↓
   width: 100%;
 }
 
+.value__icon {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.value__icon--red {
+  color: red;
+}
+
+.value__icon--green {
+  color: green;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .values__row {
