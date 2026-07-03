@@ -512,10 +512,148 @@ VALUES ↓
 
 */
 
-#values .row {
+#values {
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.values__row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.values__description {
+  width: 50%;
+}
+
+.section__tag {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.section__title {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #243e63;
+  margin-bottom: 24px;
+}
+
+.section__title span {
+  color: #6415ff;
+}
+
+.section__para {
+  color: #718096;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.values__list {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.value {
+  width: 50%;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.value__title h3 {
+  color: #243e63;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.value p {
+  color: #718096;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.value__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #243e63;
+  font-size: 22px;
+}
+
+.green {
+  background-color: #9ae6b4;
+}
+
+.red {
+  background-color: #feb2b2;
+}
+
+.btn {
+  background-color: #6415ff;
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.values__img--wrapper {
+  width: 50%;
+}
+
+.values__img {
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .values__row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .values__description,
+  .values__img--wrapper {
+    width: 100%;
+  }
+
+  .values__list {
+    flex-direction: column;
+  }
+
+  .value {
+    width: 100%;
+  }
+
+  .value__title {
+    justify-content: center;
+  }
+
+  .section__title {
+    font-size: 36px;
+  }
 }
 
 /*
