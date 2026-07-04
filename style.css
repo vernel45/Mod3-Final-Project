@@ -102,6 +102,20 @@ nav {
   color: white;
 }
 
+.nav__button:hover {
+  background-color: #4a00cc;
+  transition: all 300ms ease;
+}
+
+.btn:hover {
+  background-color: #4a00cc;
+  transition: all 300ms ease;
+}
+
+.header__email--btn:hover {
+  background-color: #4a00cc;
+  transition: all 300ms ease;
+}
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
@@ -411,6 +425,16 @@ body {
   width: 100%;
   border: 1px solid #e5e7eb;
   border-radius: 4px;
+}
+
+/* PRICING */
+
+.plan {
+    width: 400px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 0;
 }
 
 /* Mobile */
