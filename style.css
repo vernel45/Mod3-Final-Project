@@ -933,6 +933,19 @@ TESTIMONIALS ↓
   margin-bottom: 16px;
 }
 
+.fa-star {
+  color: #FABF2A;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.testimonial__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .testimonial__title {
   color: #243e63;
   font-size: 22px;
